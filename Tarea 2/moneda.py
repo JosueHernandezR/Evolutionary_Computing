@@ -8,6 +8,7 @@ def vueltasProgDin(listaValoresMonedas,vueltas,minMonedas,monedasUsadas):
                nuevaMoneda = j
         minMonedas[centavos] = conteoMonedas
         monedasUsadas[centavos] = nuevaMoneda
+    # print(monedasUsadas)
     return minMonedas[vueltas]
 
 def imprimirMonedas(monedasUsadas,vueltas):
