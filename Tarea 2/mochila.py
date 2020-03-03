@@ -38,7 +38,7 @@ def knapSack(W, wt, val):
     print("La matriz resultante es: ")
     print(K)
     return K[n-1][W-1] 
-  
+
 
 val = [20, 10, 5] 
 wt = [4, 8, 3] 

@@ -3,6 +3,10 @@
 # Dr. Jorge Luis Rosas Trigueros
 # Last change: 12feb19
 
+# Para el reporte contar las modificaciones a las probailidades
+# Longitudes de los cromosomas
+
+
 # Correción al args cmp de la función cmp
 # Importanto la siguiente biblioteca
 from functools import cmp_to_key
@@ -14,7 +18,7 @@ import random
 # Longitud del cromosoma son de 4 bits "0000 "
 # Chromosomes are 4 bits long
 # Ampliando la longitud de 4 a 16 se ve que la presición aumenta bastante.
-L_chromosome = 64
+L_chromosome = 32
 N_chains = 2**L_chromosome
 # Lower and upper limits of search space
 a = -20
@@ -37,7 +41,6 @@ def random_chromosome():
 N_chromosomes = 10.0
 # probability of mutation
 # Entre mas baja, los cambios son menos y por ende no se llega a la solución óptima
-
 prob_m = 0.75
 
 F0 = []
