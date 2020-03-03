@@ -28,8 +28,8 @@ initial_population = np.random.randint(2, size=pop_size)
 initial_population = initial_population.astype(int)
 # Número de generaciones
 num_generations = 50
-# Número de filas = soluciones po población
-# Número de columnas = N+umero de objetos
+# Número de filas = soluciones por población
+# Número de columnas = Número de objetos
 print('Initial population: \n{}'.format(initial_population))
 
 
@@ -88,7 +88,7 @@ def crossover(parents, num_offsprings):
                                                    0:crossover_point]
         offsprings[i, crossover_point:] = parents[parent2_index,
                                                   crossover_point:]
-        i = +1
+        i =+ 1
     return offsprings
 
 # En la mutación, el cromosoma sufrirá mutación se está haciendo al azar.
