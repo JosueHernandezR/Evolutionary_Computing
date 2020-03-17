@@ -41,6 +41,7 @@ print('Initial population: \n{}'.format(initial_population))
 # w_i = iésimo peso
 # kw  = tamaño de la mochila
 
+# Función fitness
 def cal_fitness(weight, value, population, threshold):
     fitness = np.empty(population.shape[0])
     for i in range(population.shape[0]):
