@@ -35,7 +35,7 @@ def seleccionar(cromosoma):
     cromosomas = generar_población(nuevos, población - 2)
     for i in range(2, población-2):
         nuevos.append(cromosomas[i])
-    print(type(nuevos))
+    #print(type(nuevos))
     return nuevos
 
 #Proceso de mutación
